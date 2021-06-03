@@ -1,0 +1,44 @@
+BANDIT:
+level0:
+	commands:
+		ssh bandit0@bandit.labs.overthewire.org -p 2220
+	password: bandit0	
+level0->level1:-
+	commands:
+		ls
+		cat readme
+	password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+level1->level2:-
+	commands:
+		ls
+		cat ./-
+	password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+level2->level3:-
+	commands:
+		ls
+		cat spaces\ in\ this\ filename
+	password:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+level3->level4:-
+	commands:
+		ls
+		cd inhere
+		ls -a
+		cat .hidden
+	password:pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+level4->level5:-
+	commands:
+		ls
+		cd inhere
+		ls 
+		file ./-file00
+		file ./-file01
+		file ./-file02
+		file ./-file03
+		file ./-file04
+		file ./-file05
+		file ./-file06
+		file ./-file07
+	password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh	
+				
+	
+
