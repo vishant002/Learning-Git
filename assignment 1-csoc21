@@ -38,6 +38,7 @@ level4->level5:-
 		file ./-file05
 		file ./-file06
 		file ./-file07
+		cat ./-file07
 	password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh	
 				
 	
